@@ -1,4 +1,4 @@
-# WriteRDLToFile
+﻿# WriteRDLToFile
 This project writes a SQL Server Report Server RDL to file.
 
 We removed our originally references so for the program to build correctly you must fix a couple of things.
@@ -12,7 +12,7 @@ We removed our originally references so for the program to build correctly you m
   
     •	\<Domain\> - domain of username
   
-    •	\<server\> - server name
+    •	\<server\> - report server name
   
 4.	In SaveRDLToFileStream replace <server> with your report server name.
 

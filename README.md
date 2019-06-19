@@ -6,12 +6,12 @@ We removed our originally references so for the program to build correctly you m
 2.	Settings.settings file needs to have “ReportServer” replaced with the URL of your report server (if for some reason it hasn't changed when updating the Web References.
 3.	In SaveRDL you need to replace certain things
   
-    •	<windowsUserName> - windows username with server privileges
+    •	\<windowsUserName\> - windows username with server privileges
   
-    •	<windowsUserPassword> - passwords of windows username
+    •	\<windowsUserPassword\> - passwords of windows username
   
-    •	<Domain> - domain of username
+    •	\<Domain\> - domain of username
   
-    •	<server> - server name
+    •	\<server\> - server name
   
 4.	In SaveRDLToFileStream replace <server> with your report server name.

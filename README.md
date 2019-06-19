@@ -15,3 +15,9 @@ We removed our originally references so for the program to build correctly you m
     •	\<server\> - server name
   
 4.	In SaveRDLToFileStream replace <server> with your report server name.
+
+5.  After this is done you can either add this to a method as a class library and remove the main method or use it as a console application to test. 
+
+Find the name of your report folder and the report you would like to print. Place them in the \<reportFolder\> and \<reportName\> locations in the main method. Replace \<location\> with the location to save the report.
+
+Also add any parameters in a dictionary to be passed to as a parameter.
